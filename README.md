@@ -22,6 +22,8 @@ AI・Web／アプリ開発に加え、Blender、ゲーム開発、VR／AR／MR�
 
 期間、件数、分野を指定できます。たとえば「直近1週間、海外中心、BlenderとXRを多めに」「直近24時間のHacker NewsとはてなITから5件」「ロボティクスで新しく注目されている研究やデモを探して」などです。
 
+調査結果は会話内で届けるとともに、作業ディレクトリの `docs/research/YYYY-MM-DD.md` に記録します。同日に別の調査を行う場合は連番を付けます。保存先の変更や保存しない指定もできます。commit・pushは依頼があった場合に行います。
+
 Web 検索・URL 取得が使えるセッションで実行してください。特定の検索プロバイダーや MCP は必須ではありません。Web アクセスが使えない場合は、その制約を伝え、最新ニュースを作り話で補わない手順になっています。
 
 ## ほかのプロジェクトでも使う
@@ -56,6 +58,7 @@ docs/skills/
   technews.md                     スキル本文・メタデータの正本
   references/sources.md           分野別の情報源と人物の探索先
   references/output-format.md     要約の形式と話題性の示し方
+docs/research/                    日付付きの調査記録
 .agents/skills/technews/SKILL.md   Codex の入口
 .claude/skills/technews/SKILL.md   Claude Code の入口
 .cursor/skills/technews/SKILL.md   Cursor の入口
